@@ -1,0 +1,59 @@
+:root {
+  --black: #000000;
+  --secondary: #1c1c1e;
+  --system-gray: #3a3a3c;
+  --seperator: #545458;
+  --fill: #767680;
+  --text: #ffffff;
+  --secondary-text: #ebebf5;
+  --blue-tint: #64d2ff;
+  --nav-bg: #1d1d1d;
+}
+
+.container-fluid {
+  background-color: var(--black);
+  color: var(--text);
+  height: 100%;
+}
+
+.section-two {
+  background-color: var(--secondary) !important;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.section-two-color {
+  background-color: var(--secondary) !important;
+}
+
+.img-color {
+  background-color: var(--secondary);
+}
+
+.section-three {
+  background-color: var(--secondary) !important;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.section-four {
+  background-color: var(--secondary) !important;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+  outline: none;
+  border: none;
+  background-color: var(--seperator);
+  color: var(--text);
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  background-color: var(--seperator);
+  color: var(--text);
+}
