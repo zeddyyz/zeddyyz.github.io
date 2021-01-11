@@ -14,6 +14,7 @@
   background-color: var(--black);
   color: var(--text);
   height: 100%;
+  padding-bottom: 20px;
 }
 
 .section-two {
@@ -56,4 +57,52 @@
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   background-color: var(--seperator);
   color: var(--text);
+}
+
+@media only screen and (max-width: 575.98px) {
+  .section-one {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+  .section-one h2 {
+    font-size: 16px;
+  }
+
+  .section-two {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .section-two > .row {
+    margin: 10px;
+  }
+
+  .section-two > .row > .col {
+    padding: 20px;
+  }
+
+  .section-three {
+    padding: 10px;
+  }
+
+  .section-three > .row {
+    margin: 10px;
+  }
+
+  .section-three > .row > .col {
+    padding: 20px;
+  }
+
+  .section-four {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .section-four > .row {
+    margin: 10px;
+  }
+
+  .section-four > .row > .col {
+    padding: 20px;
+  }
 }
